@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    //background عشان كيوت
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="450dp"
+        android:layout_height="750dp"
+        android:background="@drawable/duck3" />
+
+    <TextView
+        android:id="@+id/Calculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="130dp"
+        android:background="#F3F4DE7A"
+        android:fontFamily="sans-serif-light"
+        android:text="Calculator"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/first"
+        android:layout_width="265dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="170dp"
+        android:background="#94685353"
+        android:backgroundTint="#6C5D5D"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="First Number" />
+
+    <EditText
+        android:id="@+id/second"
+        android:layout_width="265dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="300dp"
+        android:background="#94685353"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Second Number" />
+
+    <Button
+        android:id="@+id/quack"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="400dp"
+        android:background="#F7F8B924"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="71dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="500dp"
+        android:text="Total"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>
